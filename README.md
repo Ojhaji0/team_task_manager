@@ -125,6 +125,6 @@ https://teamtaskmanager-production-3ee2.up.railway.app
 Include:
 - Signup/Login
 - Project Creation
+- Create task
 - Task Assignment
 - Dashboard
-

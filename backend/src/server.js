@@ -24,9 +24,13 @@ app.use(
       "http://127.0.0.1:5173",
       "http://127.0.0.1:5174"
     ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
   })
 );
+
+app.options("*", cors());
 
 app.use(express.json());
 
